@@ -1,0 +1,66 @@
+/*header*/
+.header{
+    height: 120px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-left{
+    float: left;
+    height: 120px;
+    width: 200px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    background-color: #add8e6;
+}
+
+.header-right{
+    float: right;
+    text-align:right;
+    height: 120px;
+    width: 800px;
+}
+.name{
+    height: 60px;
+    background-color: #87ceeb;
+    vertical-align: center;
+}
+.login{
+    height: 60px;
+    background-color:#00ffff;
+    vertical-align: center;
+}
+
+
+
+/*main*/
+.main{
+    padding:10px 0 10px 0;
+}
+
+table{
+    margin: 0 auto;
+}
+
+th{
+    text-align: center;
+    background-color: #87ceeb;
+}
+
+td{
+    text-align: left;
+    background-color: #e0ffff;
+}
+
+
+
+
+/*footer*/
+footer{
+    width: 1000px;
+    height: 50px;
+    background-color: #00ced1;
+    margin: 0 auto;
+}
