@@ -1,11 +1,7 @@
-
-
-function hello(){
+ function helo(){
+    console.log('hello');
+    console.log('hello');
     console.log('hello');
 }
 
-hello();
-
-// 変更
-// aaaaaaa
 
