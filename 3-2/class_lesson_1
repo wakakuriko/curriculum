@@ -1,0 +1,14 @@
+<?php
+
+class Taiyaki{
+    public $content;
+
+    public function __construct($content_data){
+        $this ->content = $content_data;
+    }
+
+}
+
+
+
+?>

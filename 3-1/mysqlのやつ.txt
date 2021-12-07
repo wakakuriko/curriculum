@@ -1,0 +1,16 @@
+create table comments(
+id int not null auto_increment,
+post_id int,
+name varchar(20),
+content varchar(255),
+time timestamp,
+primary key (id)
+)default charset=utf8;
+
+create table users(
+id int auto_increment,
+name varchar(50),
+password varchar(255),
+time timestamp,
+primary key(id)
+)default charset=utf8;

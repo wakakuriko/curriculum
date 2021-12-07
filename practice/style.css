@@ -1,0 +1,75 @@
+
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+.header{
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+h2{
+    padding: 0;
+}
+.title{
+    text-align: center;
+}
+
+.main{
+    width: 100%;
+    background-color: aqua;
+    height: 500px;
+}
+
+.wrapper{
+
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    float: left;
+}
+
+.wrapper2{
+
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    float: left;
+}
+
+.wrapper3{
+
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    float: left;
+}
+
+.wrapper1{
+
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    float: left;
+}
+
+.footer{
+    text-align: center;
+}
+
+.radio{
+    text-align: center;
+}
+input{
+    text-align: center;
+    padding: 0 auto;
+
+}
+img{
+    text-align: center;
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+}
