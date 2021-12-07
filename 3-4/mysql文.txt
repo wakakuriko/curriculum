@@ -1,0 +1,16 @@
+CREATE TABLE users(
+    id INT not null auto_increment,
+    first_name VARCHAR(20) not null,
+    last_name VARCHAR(20) not null,
+    last_login TIMESTAMP,
+    PRIMARY KEY(id)
+)DEFAULT CHARSET=utf8;
+
+CREATE TABLE posts(
+    id INT not null auto_increment,
+    title VARCHAR(50) not null,
+    category_no INT not null,
+    comment VARCHAR(255) not null,
+    created TIMESTAMP,
+    PRIMARY KEY(id)
+)DEFAULT CHARSET=utf8;
